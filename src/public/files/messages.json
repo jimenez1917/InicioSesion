@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "authors": {
+      "jimenez1917@gmail.com": {
+        "id": "jimenez1917@gmail.com",
+        "name": "David",
+        "lastname": "Jimenez",
+        "age": "28",
+        "nickname": "Verde"
+      },
+      "david@david": {
+        "id": "david@david",
+        "name": "Juan",
+        "lastname": "Jil",
+        "age": "18",
+        "nickname": "Pelapollos"
+      }
+    },
+    "messages": {
+      "1": {
+        "message": "Hola mundo",
+        "author": "jimenez1917@gmail.com",
+        "id": 1
+      },
+      "2": {
+        "message": "Hola David ",
+        "author": "david@david",
+        "id": 2
+      }
+    }
+  },
+  "result": [
+    1,
+    2
+  ]
+}
