@@ -1,6 +1,6 @@
-import express from 'express';
-import ProductManagerExtended from '../managers/ProductMocks.js';
-import MessageManager from '../managers/MessageManager.js';
+const express = require('express');
+const ProductManagerExtended=require('../managers/ProductMocks.js');
+const MessageManager = require('../managers/MessageManager.js');
 
 const products = new ProductManagerExtended();
 const messages = new MessageManager();
@@ -34,4 +34,4 @@ router.post('/messages', (req,res) => {
 })
 
 
-export default router;
+module.exports=router;

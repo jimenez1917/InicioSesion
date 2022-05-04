@@ -9,6 +9,7 @@ const messagesDBSchema = new normalizr.schema.Entity('messages',{
     author:author,
     messages:[message]
 })
+console.log(messagesDBSchema)
 
 
 let productlist = document.getElementById('productlist');

@@ -11,10 +11,12 @@
 <body>
     <div class="jumbotron">
         <h1>Login de Usuario</h1>
-        <form action="/login" method="post">
+        <form action="/loginForm" method="post">
             <div class="form-group">
-                <label for="nombre">Ingrese su Nombre</label>
-                <input type="text" name="nombre" required>
+                <label for="email" type="email">Username</label>
+                <input type="text" name="email" required>
+                <label for="password">Contraseña</label>
+                <input type="text" name="password" required>
             </div>
             <input class="btn btn-success mt-3" type="submit" value="Ingresar">
         </form>

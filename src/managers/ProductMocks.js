@@ -1,7 +1,7 @@
-import faker from "faker";
-import ProductManager from "./ProductManager.js"
+const faker = require('faker');
+const ProductManager= require('./ProductManager');
 
-export default class ProductManagerExtended extends ProductManager{
+class ProductManagerExtended extends ProductManager{
     constructor(){
         super();
     }
@@ -17,3 +17,4 @@ export default class ProductManagerExtended extends ProductManager{
         return nuevos;
     }
 }
+module.exports = ProductManagerExtended;

@@ -1,5 +1,7 @@
-import { normalize, denormalize, schema } from 'normalizr'
-import fs from 'fs';
+
+const { normalize, denormalize, schema } =require('normalizr')
+
+const fs=require('fs');
 
 const author = new schema.Entity('authors');
 const message = new schema.Entity('message',{
@@ -54,4 +56,4 @@ class MessageManager{
     }
 }
 
-export default MessageManager;
+module.exports=MessageManager;

@@ -1,4 +1,4 @@
-import fs from 'fs';
+const fs = require('fs');
 /*
     producto = {
         title : String (required),
@@ -76,4 +76,4 @@ class ProductManager{
     }
 }
 
-export default ProductManager;
+module.exports=ProductManager;

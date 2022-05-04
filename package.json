@@ -2,7 +2,6 @@
   "name": "david",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "app.js",
   "scripts": {
     "start": "nodemon ./src/app.js",
@@ -15,13 +14,17 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "connect-mongo": "^4.6.0",
     "cookie-parser": "^1.4.6",
-    "ejs": "^3.1.6",
     "express": "^4.17.3",
     "express-session": "^1.17.2",
     "faker": "^5.5.3",
+    "mongoose": "^6.3.1",
     "normalizr": "^3.6.2",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
     "socket.io": "^4.4.1"
   }
 }
